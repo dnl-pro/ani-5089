@@ -1,7 +1,5 @@
 # Le plan de ma salle
 
-J'ai choisi une salle de **5 m × 4 m**.
-
 * **Porte :** 0,90 m de largeur et 2 m de hauteur.
 * **Deux fenêtres :** 1,20 m de largeur chacune.
 * **Table :** 1,20 m × 0,80 m et 0,80 m de hauteur.
