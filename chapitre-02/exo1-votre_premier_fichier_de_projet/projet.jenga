@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+from Jenga import *
+
+with workspace("PremierProjet"):
+    configurations(["Debug", "Release"])
+    targetoses([TargetOS.LINUX])
+    targetarchs([TargetArch.X86_64])
+
+    with project("PremierProjet"):
+        consoleapp()
+        language("C++")
+        cppdialect("C++17")
+        files(["**.cpp"])
