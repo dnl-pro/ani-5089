@@ -1,0 +1,5 @@
+Le défaut vient du fait que le mouvement brut de la souris est conservé après la lecture au lieu d’être remis à zéro à chaque image. Après un mouvement rapide, la dernière valeur de déplacement peut donc rester visible pendant plusieurs images alors que la souris est déjà immobile. C’est ce qui explique la persistance observée dans avant.txt : les mêmes valeurs réapparaissent après l’arrêt.
+
+Un autre problème apparaît lorsqu’on lit directement une seule valeur de déplacement par image. La souris peut produire plusieurs événements rapides entre deux images. Si on ne conserve que le dernier événement, les mouvements intermédiaires sont perdus. Le résultat ne représente alors pas tout le déplacement effectué pendant l’image.
+
+La correction consiste à accumuler tous les déplacements reçus pendant une image, en additionnant les deltaX et deltaY de chaque événement. À la fin de l’image, l’accumulateur est consommé puis remis à zéro. Ainsi, aucun mouvement reçu pendant l’image n’est perdu et aucune ancienne valeur ne reste active pour l’image suivante.

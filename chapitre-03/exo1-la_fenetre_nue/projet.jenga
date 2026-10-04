@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+
+from Jenga import *
+
+with workspace("FenetreNue"):
+    configurations(["Debug", "Release"])
+    targetoses([TargetOS.LINUX])
+    targetarchs([TargetArch.X86_64])
+
+    with project("NKWindow"):
+        staticlib()
+        language("C++")
+        cppdialect("C++17")
+        location("NKWindow")
+
+        includedirs([
+            "src",
+            "../Externals",
+        ])
+
+        files([
+            "src/NKWindow/Core/**.cpp",
+            "src/NKWindow/Core/**.h",
+            "src/NKWindow/Core/**.hpp",
+            "src/NKWindow/Renderer/**.cpp",
+            "src/NKWindow/Renderer/**.h",
+        ])
+
+        with filter("system:Linux"):
+            defines([
+                "NKENTSEU_PLATFORM_XLIB=1",
+                "NKENTSEU_FAMILY_LINUX=1",
+            ])
+
+            files([
+                "src/NKWindow/Platform/Linux/**.h",
+                "src/NKWindow/Platform/XLib/**.cpp",
+                "src/NKWindow/Platform/XLib/**.h",
+            ])
+
+            links(["pthread", "X11"])
+
+    with project("FenetreNue"):
+        windowedapp()
+        language("C++")
+        cppdialect("C++17")
+        files(["main.cpp"])
+
+        includedirs([
+            "NKWindow/src",
+            "Externals",
+        ])
+
+        links(["NKWindow"])
+        dependson(["NKWindow"])
+
+        with filter("system:Linux"):
+            windowedapp()
+            usetoolchain("host-clang")
+            defines(["NKENTSEU_PLATFORM_XLIB=1"])
+            links(["pthread", "X11"])

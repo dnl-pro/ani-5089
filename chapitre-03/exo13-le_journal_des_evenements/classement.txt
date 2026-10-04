@@ -1,0 +1,6 @@
+Souris : 26
+Touche : 9
+Focus : 5
+EntreePointeur : 5
+Molette : 4
+Redimensionnement : 4
