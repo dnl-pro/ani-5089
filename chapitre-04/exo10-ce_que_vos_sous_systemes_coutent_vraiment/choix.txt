@@ -1,0 +1,3 @@
+Je garde : Rendu 3D seul (6200 us), système de maillages (surcoût mesuré : 300 us) et bibliothèque de shaders (surcoût mesuré : 200 us). Budget estimé : 6700 us, soit 6,7 ms.
+
+Pourquoi : Avec ces valeurs d'exemple, le coût total reste inférieur au budget de 11 ms (11000 us), avec une marge d'environ 4,3 ms. Je conserve les éléments utiles au rendu 3D et à la préparation des objets, et je n'ajoute pas le rendu 2D ni le système de matériaux tant que leur utilité n'est pas indispensable. Cette décision doit être confirmée avec les mesures réelles obtenues en Release sur 400 images.

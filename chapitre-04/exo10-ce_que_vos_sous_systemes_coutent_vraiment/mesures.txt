@@ -1,0 +1,7 @@
+# EXEMPLE DE STRUCTURE — remplacer ces valeurs par les mesures réelles en Release sur 400 images.
+Rendu 3D seul : 6200 us
+Rendu 3D + Rendu 2D : 7100 us
+Rendu 3D + Système de maillages : 6500 us
+Rendu 3D + Système de matériaux : 6800 us
+Rendu 3D + Bibliothèque de shaders : 6400 us
+Rendu 3D + Rendu 2D + Système de matériaux : 7900 us

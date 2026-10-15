@@ -1,0 +1,6 @@
+# Classement d'exemple — surcoût calculé par rapport au rendu 3D seul (6200 us).
+1. Rendu 2D : 900 us (7100 - 6200)
+2. Système de matériaux : 700 us (6800 - 6200)
+3. Système de maillages : 300 us (6500 - 6200)
+4. Bibliothèque de shaders : 200 us (6400 - 6200)
+5. Rendu 2D + système de matériaux : 1700 us (7900 - 6200)

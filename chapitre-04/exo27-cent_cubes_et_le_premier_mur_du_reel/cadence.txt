@@ -1,0 +1,5 @@
+Un par un : Mesure à relever à l'exécution — nombre de cubes au premier seuil sous 60 FPS : [N mesuré] ; drawCalls : [compteur mesuré] ; cadence moyenne sur au moins 400 images : [FPS mesurés]. Si la salle seule est déjà sous 60 FPS, préciser que le seuil retenu est la moitié de sa cadence de départ.
+
+Groupés : Pour les mêmes [N mesurés] cubes, drawCalls : [compteur mesuré] ; cadence moyenne sur au moins 400 images : [FPS mesurés] ; nouveau seuil sous 60 FPS (ou sous la moitié de la cadence initiale si la salle seule est déjà sous 60) : [nombre de cubes mesuré].
+
+Trouvé : NkRender3D::SubmitInstanced, avec le type NkDrawCallInstanced ; déclaration de la méthode dans R3D/include/NKRenderer/Tools/Render3D/NkRender3D.h et déclaration du type dans R3D/include/NKRenderer/Core/NkRendererTypes.h.

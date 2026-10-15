@@ -1,0 +1,3 @@
+Facteur : Avec l'ordre incorrect Scale * Translation, le vecteur de translation (0, 1.25, -1.95) est multiplié composante par composante par l'échelle (4, 2.5, 0.10), ce qui donne (0, 3.125, -0.195) au lieu de (0, 1.25, -1.95).
+
+Pourquoi : Dans l'ordre Scale * Translation, l'échelle agit aussi sur la translation du mur. Le centre est donc déplacé et la salle est déformée au lieu de conserver sa géométrie correctement positionnée. Il faut composer Translation * Scale pour mettre le mur à l'échelle autour de son origine, puis le placer à sa position dans la salle.

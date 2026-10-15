@@ -1,8 +1,5 @@
-﻿Avant :
-À mesurer sur le code initial, avant factorisation.
+Avant : 38 lignes.
 
-Après :
-118 lignes dans poser.cpp avant la correction du plateau ; recompter après correction.
+Après : 44 lignes.
 
-Comptage :
-Le nombre de lignes doit être mesuré avec la même règle avant et après. Le code initial complet avant factorisation n'a pas encore été fourni, donc le nombre Avant reste à établir.
+Comptage : Règle appliquée aux deux versions : les lignes de code des fonctions qui placent et soumettent les objets, signatures et accolades comprises, sans les lignes vides ni les commentaires. Avant (38) : SubmitBoite 11, SubmitObjetsAuSol 23, SubmitObjetsSurTable 4. Après (44) : SubmitBoite 10, SubmitObjetsAuSol 22, SubmitObjetsSurTable 4, plus PoserAuSol 4 et PoserSurTable 4. Pour l'avant, j'ai écrit la même salle sans les deux fonctions, avec le centre en y calculé à la main pour chaque objet, comme dans mes exercices 22 et 23, et je l'ai comptée avec exactement la même règle que l'après. J'ai laissé de côté, dans les deux versions : les includes, les constantes, le sol, le plateau et les fenêtres, qui ne reposent pas sur le sol (le plateau est porté par les pieds, les fenêtres sont à 1,40 m, leur calcul reste direct), et tout nkmain (fenêtre, périphérique, renderer, caméra, lumière, boucle). Le nombre de lignes monte de 6 au lieu de baisser : avec 13 objets, les deux fonctions (8 lignes) coûtent plus que ce qu'elles économisent aux appels. Ce qui a baissé, c'est le nombre d'endroits où l'on calcule la hauteur du centre : 13 objets avaient leur y fait à la main (4 murs, la porte, 4 pieds, l'armoire, le tapis, le livre, le vase), contre 2 formules après, une dans PoserAuSol et une dans PoserSurTable. Chaque objet de plus coûte désormais le même nombre de lignes, sans nouveau calcul à risque.
