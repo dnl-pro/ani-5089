@@ -1,0 +1,27 @@
+/mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/Build/Obj/Debug-Linux/NKWindow/src_NKWindow_Core_NkRenderer.o: \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkRenderer.cpp \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkRenderer.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkSurface.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkTypes.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkPlatformDetect.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkWindow.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkWindowConfig.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkSafeArea.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkEvent.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkEventTypes.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/../NkTypes.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkWindowEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkKeyboardEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkScancode.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkMouseEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkTouchEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkGamepadEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/Events/NkDropEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/IWindowImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/IEventImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/NkSystem.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/IRendererImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/../Renderer/Software/NkSoftwareRendererImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/../Renderer/Software/../../Core/IRendererImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/../Renderer/NkRendererStubs.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Core/../Renderer/../Core/IRendererImpl.h

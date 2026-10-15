@@ -1,0 +1,8 @@
+﻿Avant :
+À mesurer sur le code initial, avant factorisation.
+
+Après :
+118 lignes dans poser.cpp avant la correction du plateau ; recompter après correction.
+
+Comptage :
+Le nombre de lignes doit être mesuré avec la même règle avant et après. Le code initial complet avant factorisation n'a pas encore été fourni, donc le nombre Avant reste à établir.

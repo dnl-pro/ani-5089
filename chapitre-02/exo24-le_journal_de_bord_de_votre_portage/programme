@@ -1,0 +1,2 @@
+#!/bin/sh
+cat journal-de-bord.md

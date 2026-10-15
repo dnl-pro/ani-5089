@@ -1,0 +1,5 @@
+﻿Première : Software (NK_GFX_API_SOFTWARE) — temps moyen sur 400 images à mesurer après initialisation et chauffe, ou refus suivi du message réel.
+
+Seconde : OpenGL (NK_GFX_API_OPENGL) — temps moyen sur 400 images à mesurer après initialisation et chauffe, ou refus suivi du message réel.
+
+Différences : à compléter après comparaison des captures premiere.png et seconde.png. Décrire les différences réellement observées dans la salle, notamment l'éclairage, les ombres, les contours ou les détails visibles.

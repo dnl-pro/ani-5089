@@ -1,0 +1,3 @@
+﻿Plateau : Le dessus du plateau est a 0,75 m du sol et son epaisseur est de 0,05 m. Le centre de la transformation doit donc etre place a y = 0,75 - (0,05 / 2) = 0,725 m. Le plateau mesure 1,20 m en x et 0,80 m en z, avec son centre en x = 0,60 m et z = 0,70 m.
+
+Pieds : Chaque pied part du sol et s'arrete au dessous du plateau, a y = 0,75 - 0,05 = 0,70 m. Sa hauteur est donc de 0,70 m. Son centre est a y = (0 + 0,70) / 2 = 0,35 m. La section de chaque pied est de 0,06 m sur 0,06 m, et ses centres sont places a x = 0,03 ou 1,17 m et z = 0,33 ou 1,07 m.

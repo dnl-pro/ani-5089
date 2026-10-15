@@ -1,0 +1,22 @@
+/mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/Build/Obj/Debug-Linux/NKWindow/src_NKWindow_Platform_XLib_NkXLibEventImpl.o: \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/NkXLibEventImpl.cpp \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/NkXLibEventImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/IEventImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/NkEvent.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkEventTypes.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/../NkTypes.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkWindowEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkKeyboardEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkScancode.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkMouseEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkTouchEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkGamepadEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkDropEvents.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/Events/NkKeycodeMap.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/NkXLibWindowImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/IWindowImpl.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/NkWindowConfig.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/NkTypes.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/NkSafeArea.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/NkSurface.h \
+  /mnt/c/Users/asehp/Desktop/genga/Jenga/chapitre-03/exo9-le_defaut_du_moteur_reproduit_puis_corrige/NKWindow/src/NKWindow/Platform/XLib/../../Core/NkPlatformDetect.h

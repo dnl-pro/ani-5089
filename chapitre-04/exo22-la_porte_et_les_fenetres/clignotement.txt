@@ -1,0 +1,5 @@
+﻿Constat : Lorsque la face avant de la porte est exactement dans le plan intérieur du mur, les deux surfaces se disputent l'affichage. Des artefacts ou un scintillement peuvent apparaître selon la précision du tampon de profondeur et l'ordre de rendu.
+
+Nom : Ce défaut est appelé z-fighting. Il se produit lorsque deux surfaces occupent des plans identiques ou presque identiques et que le tampon de profondeur ne permet pas de déterminer de façon stable laquelle doit être affichée.
+
+Réglage : J'ai avancé les trois panneaux de 0,02 m (2 cm) vers l'intérieur de la pièce. Ce décalage correspond à l'épaisseur des panneaux : leur face arrière rejoint le plan intérieur du mur et les surfaces ne restent plus coplanaires. Un décalage inférieur pourrait laisser une partie du panneau dans le mur et maintenir des conflits ; un décalage supérieur serait inutile.
