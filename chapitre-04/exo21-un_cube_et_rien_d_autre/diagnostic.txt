@@ -1,0 +1,35 @@
+﻿Exercice : exo21-un_cube_et_rien_d_autre
+
+Fichier source : cube.cpp
+
+OBJECTIF
+Afficher un seul cube 3D, avec une caméra placée à hauteur d'œil
+et une lumière directionnelle déclarée dans le contexte de scène.
+
+SOUS-SYSTEMES
+- NKRenderer / NkRender3D : soumission et rendu 3D.
+- NkMeshSystem : primitive cube intégrée, récupérée par GetCube().
+- NkSceneContext : caméra et liste des lumières.
+- NkCamera3D : position, cible, vecteur vertical et projection perspective.
+
+DIAGNOSTIC 1 — INITIALISATION
+Si aucun cube n'apparaît, vérifier que le device et le renderer sont
+initialisés et valides, et que la boucle de rendu appelle BeginFrame()
+avant d'enregistrer les commandes de dessin.
+
+DIAGNOSTIC 2 — SOUMISSION ET PRESENTATION
+Si la scène est vide, vérifier que BeginScene(scene), Submit(draw),
+Flush(commandBuffer), EndFrame() et Present() sont exécutés dans l'ordre
+attendu par le backend.
+
+CAUSES POSSIBLES
+- Device ou renderer non initialisé.
+- Command buffer invalide ou frame non commencée.
+- Primitive cube non récupérée ou draw call non soumis.
+- Contexte de scène non transmis au rendu 3D.
+- Frame non présentée après l'enregistrement des commandes.
+
+LIMITATION
+Le présent fichier décrit les données de scène et la soumission du cube.
+Le démarrage complet de la fenêtre et du backend doit suivre l'exemple
+d'application fourni avec la version du kit R3D utilisée.
