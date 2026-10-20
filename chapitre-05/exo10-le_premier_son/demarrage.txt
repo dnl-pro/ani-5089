@@ -1,0 +1,4 @@
+dorsal : WASAPI
+frequence : 48000
+tampon : 256
+latence : 23.46

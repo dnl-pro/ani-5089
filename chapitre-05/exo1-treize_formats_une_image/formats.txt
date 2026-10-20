@@ -1,0 +1,5 @@
+png : 78363 octets, 810 x 1080
+jpeg : 28169 octets, 810 x 1080
+bmp : 2626614 octets, 810 x 1080
+qoi : 129421 octets, 810 x 1080
+gif : 75155 octets, 810 x 1080

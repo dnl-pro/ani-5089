@@ -1,0 +1,8 @@
+atlas : 512 x 512
+image : 72 x 32
+
+Ma police et sa taille : j'utilise Inter, la police embarquée dans le moteur : aucun fichier de police n'est fourni, elle est ajoutée à l'atlas avec NkFontEmbedded::AddToAtlas, à 32 pixels, puis l'atlas est construit avec Build(). Il fait 512 x 512 pixels. Mon image fait 72 x 32 pixels : 72 est la somme des advanceX des six lettres de « Sortie », et 32 vaut ascent - descent. Le panneau est un pavé de 20 cm de haut et de 45 cm de large (72 / 32 x 20 cm), posé au-dessus de la porte et décollé de quelques millimètres du mur pour ne pas clignoter.
+
+A trois metres : sur la capture, le panneau est petit : environ 80 pixels de large et 35 de haut à l'écran, ce qui est proche de la taille de mon image (72 x 32). Un pixel de l'image tombe à peu près sur un pixel de l'écran : le mot « Sortie » est net, lisible, avec des lettres bien droites et sans flou visible. À cette distance, la police à 32 pixels dans l'atlas suffit.
+
+A cinquante centimetres : sur la capture, le panneau remplit presque l'écran : environ 550 pixels de large et 235 de haut, soit environ 7 fois plus que mon image de 72 x 32 pixels. Le mot reste lisible, mais le contour des lettres est flou et on devine les carrés de l'image agrandie : chaque pixel de l'image est étalé sur sept pixels de l'écran environ. Le moteur ne peut pas inventer de détail que l'atlas n'a pas : les lettres n'ont été dessinées qu'avec 32 pixels de haut dans un atlas de 512 x 512. Pour qu'elles soient nettes à cinquante centimètres, il faudrait une police à environ 200 pixels, donc un atlas bien plus grand que 512 x 512, ou une image de panneau plus grande.

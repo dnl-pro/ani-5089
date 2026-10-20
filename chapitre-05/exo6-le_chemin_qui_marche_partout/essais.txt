@@ -1,0 +1,4 @@
+avant, projet : lancé depuis le dossier du projet avec un chemin relatif (murs/mur.jpg), le mur face à la caméra change quand j'appuie sur T : il prend la texture de ma photo, un peu assombrie comme dans l'exercice précédent.
+avant, Build : lancé depuis Build\Bin\Release-Windows\Ch05Exo4, le même programme donne un mur rose clair (magenta) quand j'appuie sur T. Journal : [2026-10-20 07:10:42.901] [ERR] [default] [NkTextureLibrary.cpp:478 in Load] -> [NkTextureLibrary] Echec chargement texture : murs/mur.jpg
+apres, projet : avec NkPath::LocateResource, lancé depuis le dossier du projet, le mur a directement la photo, sans appuyer sur T.
+apres, Build : lancé depuis Build\Bin\Release-Windows\Ch05Exo6, après avoir copié le dossier murs à côté de l'exécutable, le mur a encore la photo, exactement comme depuis le projet.
