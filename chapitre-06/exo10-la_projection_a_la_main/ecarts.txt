@@ -1,0 +1,10 @@
+symetrique, ligne 0 : 1.192e-07 0.000e+00 0.000e+00 0.000e+00
+symetrique, ligne 1 : 0.000e+00 2.384e-07 0.000e+00 0.000e+00
+symetrique, ligne 2 : 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+symetrique, ligne 3 : 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+quest, ligne 0 : 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+quest, ligne 1 : 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+quest, ligne 2 : 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+quest, ligne 3 : 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+symetrique : plus grand ecart 2.384e-07
+quest : plus grand ecart 0.000e+00

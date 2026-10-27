@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# MaSalle.jenga - construit la salle de l'exercice 7 (cout.cpp) avec le kit R3D.
+# Plac?? dans chapitre-06/exo7-le_cout_mesure, trois niveaux sous le dossier qui contient R3D :
+# Desktop\genga\Jenga\chapitre-06\exo7-le_cout_mesure  ->  Desktop\genga\R3D\R3D.jenga
+from Jenga import *
+
+with workspace("MaSalle"):
+    configurations(["Debug", "Release"])
+    targetoses([TargetOS.WINDOWS])
+    targetarchs([TargetArch.X86_64])
+
+    useconfig("../../../R3D/R3D.jenga")
+
+    with project("MaSalle"):
+        consoleapp()
+        language("C++")
+        cppdialect("C++17")
+        location(".")
+        files(["cout.cpp"])
+        user3d()
+        ldflags(["-Wl,--allow-multiple-definition"])
+
+        # Sans cette ligne, Release ne compile pas plus vite que Debug.
+        with filter("config:Release"):
+            optimize("Speed")
+
+        objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}-%{cfg.system}/%{prj.name}")
+        targetdir("%{wks.location}/Build/Bin/%{cfg.buildcfg}-%{cfg.system}/%{prj.name}")

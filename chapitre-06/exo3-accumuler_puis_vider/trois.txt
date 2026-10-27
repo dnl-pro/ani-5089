@@ -1,0 +1,11 @@
+t = 10.0 s, lu = 7.9, vide = 46.8, sans vidage = 6181.2
+t = 11.0 s, lu = 7.9, vide = 46.8, sans vidage = 7022.8
+t = 12.0 s, lu = 7.9, vide = 46.8, sans vidage = 7864.3
+t = 13.0 s, lu = 7.9, vide = 46.8, sans vidage = 8705.9
+t = 14.0 s, lu = 7.9, vide = 46.8, sans vidage = 9547.4
+t = 15.0 s, lu = 7.9, vide = 46.8, sans vidage = 10389.0
+t = 16.0 s, lu = 7.9, vide = 46.8, sans vidage = 11230.5
+t = 17.0 s, lu = 7.9, vide = 46.8, sans vidage = 12072.1
+t = 18.0 s, lu = 7.9, vide = 46.8, sans vidage = 12913.6
+t = 19.0 s, lu = 7.9, vide = 46.8, sans vidage = 13755.2
+t = 20.1 s, lu = 7.9, vide = 46.8, sans vidage = 14596.7
