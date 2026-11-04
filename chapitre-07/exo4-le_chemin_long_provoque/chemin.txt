@@ -1,0 +1,8 @@
+sans le test
+image 60 : yaw = 268.019 deg, vitesse = (0.000, 19.999, 0.000) deg/s, delta.w = 0.999865
+image 61 : yaw = 270.082 deg, vitesse = (0.000, -19.999, -0.000) deg/s, delta.w = -0.999838
+image 62 : yaw = 272.086 deg, vitesse = (0.000, 19.999, 0.000) deg/s, delta.w = 0.999847
+avec le test
+image 67 : yaw = 269.984 deg, vitesse = (0.000, 20.000, 0.000) deg/s, delta.w = 0.999951
+image 68 : yaw = 271.044 deg, vitesse = (-0.000, 19.999, 0.000) deg/s, delta.w = 0.999957
+image 69 : yaw = 272.135 deg, vitesse = (0.000, 20.000, 0.000) deg/s, delta.w = 0.999955

@@ -1,0 +1,8 @@
+Ce qui est stable :
+Quand je change la cadence demandee, la periode change (13.889, 16.667, 11.111 et 8.333 ms) et l'ecart entre l'instant reel et l'instant predit change en sens inverse (22.209, 19.440, 25.041 et 27.750 ms). Leur somme, elle, ne bouge pas : 36.098, 36.107, 36.152 et 36.083 ms, soit environ 36.1 ms. Ce qui est stable, c'est donc le temps entre deux images reelles, pas l'ecart a la prediction.
+
+Un sur la cadence :
+L'instant predit vaut maintenant plus une periode, donc il suppose que l'image suivante arrive une periode plus tard. Avec 72, 60, 90 et 120 Hz, les periodes sont 1000/72, 1000/60, 1000/90 et 1000/120 ms, comme dans la liste ci-dessus. Mais mon programme met 36.1 ms par image, bien plus que chacune de ces periodes (2.6, 2.2, 3.2 et 4.3 fois plus). La prediction est donc toujours en retard sur la realite, et l'ecart ne fait que combler la difference entre 36.1 ms et la periode.
+
+La periode de mon ecran :
+Je ne peux pas la deduire de ces mesures. La somme constante de 36.1 ms (environ 27.7 images par seconde) est la vitesse de mon programme, pas celle de mon ecran : meme avec les effets d'image coupes, les images restent trop lentes pour que l'ecran impose son rythme. Windows indique 60 Hz pour mon ecran, soit 16.667 ms, mais c'est la valeur du systeme et non une valeur tiree de ces mesures. Cinq pipelines Vulkan echouent au demarrage (VkResult=-13) sur ma carte, ce qui explique en partie la lenteur.
