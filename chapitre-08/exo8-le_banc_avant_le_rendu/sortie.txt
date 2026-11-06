@@ -1,0 +1,11 @@
+anneau de 3 images
+allure 1 : emprunte 0, rend 0
+allure 2 : emprunte 1, rend 1
+allure 3 : emprunte 2, rend 2
+allure 4 : emprunte 0, rend 0
+allure 5 : emprunte 1, rend 1
+allure 6 : emprunte 2, rend 2
+double emprunt : refuse
+rendre sans emprunt : refuse
+chaine plus grande que le maximum : refuse
+banc : tout est bon

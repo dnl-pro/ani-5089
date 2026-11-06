@@ -1,0 +1,7 @@
+redimensionne la fenetre de 1278x712 a 960x540
+detruit la chaine gauche
+detruit la chaine droite
+recree la chaine gauche (2 images)
+recree la chaine droite (2 images)
+reenregistre les images de la chaine gauche
+reenregistre les images de la chaine droite

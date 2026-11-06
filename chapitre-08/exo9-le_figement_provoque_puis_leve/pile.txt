@@ -1,0 +1,8 @@
+Aucune pile du fil principal n'a pu etre prise : le programme ne s'est fige a aucune image sur cette machine.
+Sans le second appel (SetRenderSizeOverride), il a dessine ses douze images puis s'est ferme de lui-meme.
+Le debogueur n'avait donc aucun processus fige auquel s'attacher. Sortie reelle de la tentative :
+
+(lldb) process attach --pid 1844
+error: attach failed: Access is denied.
+
+Le processus 1844 etait deja termine au moment de l'attachement.
